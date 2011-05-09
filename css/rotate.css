@@ -1,0 +1,22 @@
+@CHARSET "ISO-8859-1";
+
+#photoShow {
+	position:relative;
+	height:260px;
+    width:495px;
+    margin: 0 auto;
+    z-index: 0;
+}
+#photoShow div {
+    position:absolute;
+    z-index: 0;
+}
+#photoShow div.previous {
+    z-index: 1;
+}
+#photoShow div.current {
+    z-index: 2;
+}
+#photoShow img {
+   border: none;	
+}	
